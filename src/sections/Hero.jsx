@@ -49,7 +49,7 @@ const Hero = () => {
           <div className="flex justify-start items-end gap-8 py-1 h-[56px] bg-white pr-8 ">
             {socialMedia.map((icon) => (
               <a
-                className="relative flex justify-center items-center w-14 h-14 bg-white rounded border-solid border-2 border-black hover:bg-black cursor-pointer transition-all duration-300 ease-in-out"
+                className="relative flex justify-center items-center w-14 h-14 bg-white rounded border-solid border-2 border-black hover:bg-black cursor-pointer transition-all duration-300 ease-in-out "
                 key={icon.alt}
                 href={icon.href}
               >
