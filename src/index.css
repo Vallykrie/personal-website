@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.sora-100 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 100;
+}
+
+.sora-200 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 200;
+}
+
+.sora-300 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 300;
+}
+
+.sora-400 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+}
+
+.sora-500 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 500;
+}
+
+.sora-600 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+}
+
+.sora-700 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+}
+
+.sora-800 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 800;
+}
+
