@@ -10,11 +10,11 @@ const About = () => {
         />
       </div>
       <div className="h-auto w-full flex flex-col ">
-        <div className="p-5 flex flex-row gap-4 w-full justify-start text-4xl text-black max-md:text-[40px] max-sm:text-3xl">
+        <div className="py-5 min-lg:px-5 flex flex-row gap-4 w-full justify-start text-4xl text-black max-md:text-[40px] max-sm:text-3xl">
           <div className="sora-400">About</div>
           <div className="sora-800">Me</div>
         </div>
-        <div className="gap-5 p-5 sora-200 text-base flex flex-col w-full justify-start">
+        <div className="gap-5 py-5 min-lg:px-5 sora-200 text-base flex flex-col w-full justify-start">
           <p>
             I am a passionate, self-proclaimed designer who specializes in full
             stack development (React.js & Node.js). I am very enthusiastic about
