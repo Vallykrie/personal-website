@@ -4,7 +4,7 @@ import hamburger from "../assets/hamburger.svg";
 
 const Nav = () => {
   return (
-    <header className="px-20 py-6 sticky top-0 backdrop-blur drop-shadow-lg bg-white/60 w-auto z-50 max-lg:p-4">
+    <header className="px-20 py-6 sticky top-0 backdrop-blur drop-shadow-lg bg-white/60 w-auto z-50 max-lg:p-4 max-lg:px-0">
       <nav className="px-8 flex justify-between items-center flex-row">
         <div className="justify-start">
           <a href="#home">
