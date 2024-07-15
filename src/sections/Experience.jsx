@@ -26,7 +26,7 @@ const Experience = () => {
                 <img src={icon.logo} alt={icon.alt} className="h-8 w-8" />
                 <div className=" sora-600 text-2xl text-white">{icon.role}</div>
               </div>
-              <div className="sora-100 text-base text-white flex justify-end items-center">
+              <div className="sora-400 text-base text-white flex justify-end items-center">
                 {icon.date}
               </div>
             </div>
