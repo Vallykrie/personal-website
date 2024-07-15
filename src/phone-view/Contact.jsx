@@ -2,9 +2,9 @@ import { socialMedia } from "../constant";
 
 const Contact = () => {
   return (
-    <section className="h-auto w-full px-8 grid grid-flow-row grid-cols-2 grid-rows-1 ">
+    <section className="h-auto w-full px-8 grid grid-flow-row grid-cols-1 ">
       {/* left side */}
-      <div className="w-4/5 py-5 flex flex-col h-auto justify-center gap-5">
+      <div className=" py-5 flex flex-col h-auto justify-center gap-5">
         <div>
           <input
             type="text"
@@ -33,13 +33,13 @@ const Contact = () => {
             className="justify-start items-start h-36 w-full border-solid border-[1.5px] px-6 py-4 rounded border-black "
           />
         </div>
-        <div className="flex flex-row gap-8 justify-start items-center">
+        <div className="flex flex-row gap-8 justify-start items-center max-md:flex-col">
           <a href="https://ngl.link/reinaiueo_" className="w-full h-14 px-5 py-4 rounded bg-black justify-center items-center flex text-white text-xl sora-600 hover:bg-white hover:text-black hover:border-solid hover:border-2  transition-opacity duration-300 ease-in-out hover:border-black hover:cursor-pointer">
             Get in Touch
           </a>
 
           {/* sosmed */}
-          <div className=" flex">
+          <div className="flex justify-start w-full">
             <div className="flex items-center gap-8 py-1 h-14 bg-white">
               {socialMedia.map((icon) => (
                 <a
@@ -66,10 +66,10 @@ const Contact = () => {
       </div>
 
       {/* right side */}
-      <div className="flex flex-col justify-center gap-10 h-auto">
+      <div className="flex flex-col justify-start py-5 gap-5 h-auto">
         <div className="flex flex-col gap-5">
           {/* title */}
-          <div className="flex flex-col gap-3 text-4xl sora-800">
+          <div className="flex flex-col gap-3 text-4xl sora-800  max-md:text-[40px] max-sm:text-3xl max-md:gap-0">
             <div className="flex flex-row gap-4">
               <div className="">Lets</div>
               <div>
@@ -105,7 +105,7 @@ const Contact = () => {
         </div>
 
         {/* info */}
-        <div className="flex flex-col sora-600 text-3xl">
+        <div className="flex flex-col sora-600 text-2xl max-md:text-xl">
           <p>blablabla@than.com</p>
           <p>08123456789</p>
         </div>

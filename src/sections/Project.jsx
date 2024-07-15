@@ -8,6 +8,8 @@ const Project = () => {
         <div className="text-white text-4xl sora-400">My</div>
         <div className="text-white text-4xl sora-800">Project</div>
       </div>
+
+      {/* card and desc */}
       <div className="w-full flex flex-col">
         {projectLists.map((icon) => (
           <div key={icon.no}>
@@ -16,7 +18,7 @@ const Project = () => {
                 <img
                   src={icon.img}
                   alt={icon.alt}
-                  className="h-[476px] w-[398px] flex items-center"
+                  className="h-[476px] w-[398px] flex items-center rounded-2xl"
                 />
               </div>
               <div className="gap-7 justify-center flex flex-col h-auto w-1/2">
@@ -55,13 +57,15 @@ const Project = () => {
                 <img
                   src={icon.img2}
                   alt={icon.alt2}
-                  className="h-[476px] w-[398px] flex items-center"
+                  className="h-[476px] w-[398px] flex items-center rounded-2xl"
                 />
               </div>
             </div>
           </div>
         ))}
       </div>
+
+      
     </section>
   );
 };

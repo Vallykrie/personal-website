@@ -58,7 +58,7 @@ const App = () => (
       <section id="about" className="px-4 py-10">
         <About2 />
       </section>
-      {/* <section id="project" className="bg-black px-4 py-10">
+      <section id="project" className="bg-black px-4 py-10">
         <Project2 />
       </section>
       <section id="contact" className="px-4 py-10">
@@ -66,7 +66,7 @@ const App = () => (
       </section>
       <section className="px-4 py-6 bg-black">
         <Footer2 />
-      </section> */}
+      </section>
     </div>
   </main>
 );

@@ -15,14 +15,15 @@ const Hero = () => {
       </div>
 
       {/* Hero content */}
-      <div className="flex-col flex w-fit z-10 mt-12 text-4xl max-[470px]:text-3xl max-md:text-[36px] max">
+      <div className="flex-col flex w-fit z-10 mt-12 text-4xl max-[470px]:text-3xl max-md:text-[36px] max-[400px]:text-2xl">
         <div className="inline-flex gap-4">
           <div className="sora-400">Hello I am</div>
           <div className="sora-800">Nathan.</div>
         </div>
         <div className="inline-flex gap-4">
           <div className="sora-800">An</div>
-          <div>
+
+          <div className="max-[400px]:hidden">
             <div
               className=" absolute sora-800 break-words"
               style={{
@@ -36,6 +37,22 @@ const Hero = () => {
               Undergraduate
             </div>
           </div>
+
+          <div className="hidden max-[400px]:block">
+            <div
+              className=" absolute sora-800 break-words"
+              style={{
+                webkitTextStrokeWidth: "0.17rem",
+                webkitTextStrokeColor: "black",
+              }}
+            >
+              Undergraduate
+            </div>
+            <div className="absolute sora-800 break-words text-white">
+              Undergraduate
+            </div>
+          </div>
+
         </div>
         <div className="inline-flex gap-4">
           <div className="sora-400">Informatics Engineering</div>

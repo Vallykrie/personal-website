@@ -11,12 +11,13 @@ const Experience = () => {
 
       {/* Grid Skills */}
 
-      <div className="w-full gap-8 py-10 px-6 flex items-center flex-col">
+      <div className="w-full gap-8 py-10 flex items-center flex-col">
         {experienceLists.map((icon) => (
           <div
             key={icon.role}
             className="w-full flex items-center justify-start flex-col px-6 py-8 h-auto gap-7 border-solid border-2 border-white rounded-xl"
           >
+            {/* logo and role */}
             <div className="flex  justify-between  items-start flex-row w-full max-md:flex-col max-md:gap-2">
               <div className="flex items-center flex-row gap-8">
                 <img src={icon.logo} alt={icon.alt} className="h-8 w-8" />
@@ -28,9 +29,12 @@ const Experience = () => {
                 {icon.date}
               </div>
             </div>
+
+            {/* description */}
             <div className="text-base text-white max-md:text-[12px]">
               <div className="sora-100">{icon.description}</div>
             </div>
+            
           </div>
         ))}
       </div>

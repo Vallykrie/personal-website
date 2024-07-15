@@ -15,7 +15,7 @@ const Skills = () => {
 
       {/* Grid Skills */}
       <div className="flex justify-center">
-        <div className="w-fit grid grid-flow-row gap-8 py-1 max-md:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 ">
+        <div className="w-fit grid grid-flow-row gap-8 py-1 max-md:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 max-[400px]:gap-4">
           {mySkills.map((icon) => (
             <a
               className="max-md:w-40 max-md:h-40 relative flex justify-center items-center w-48 h-48 bg-white rounded border-solid border-2 border-black hover:bg-black cursor-pointer transition-all duration-300 ease-in-out"
