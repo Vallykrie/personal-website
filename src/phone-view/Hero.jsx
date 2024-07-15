@@ -3,14 +3,24 @@ import { socialMedia } from "../constant";
 const Hero = () => {
   return (
     // Hero section
-    <section className="px-8 w-auto h-auto flex flex-col">
+    <section className="w-auto h-auto grid grid-flow-row grid-rows-1 justify-center">
+
+      {/* Right side image */}
+      <div className=" h-[332px] bg-gray-200 z-0">
+        <img
+          src="/mnt/data/image.png"
+          alt="Foto Gwejh"
+          className="h-auto max-w-xs"
+        />
+      </div>
+
       {/* Hero content */}
-      <div className="flex-col flex w-fit z-10">
-        <div className="inline-flex gap-4" style={{ fontSize: "3rem" }}>
+      <div className="flex-col flex w-fit z-10 mt-12 text-4xl max-[470px]:text-3xl max-md:text-[36px] max">
+        <div className="inline-flex gap-4">
           <div className="sora-400">Hello I am</div>
           <div className="sora-800">Nathan.</div>
         </div>
-        <div className="inline-flex gap-4" style={{ fontSize: "3rem" }}>
+        <div className="inline-flex gap-4">
           <div className="sora-800">An</div>
           <div>
             <div
@@ -27,10 +37,10 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="inline-flex gap-4" style={{ fontSize: "3rem" }}>
+        <div className="inline-flex gap-4">
           <div className="sora-400">Informatics Engineering</div>
         </div>
-        <div className="mt-[250px] sora-200 text-base absolute max-w-lg">
+        <div className="sora-200 text-base max-w-lg mt-8 max-[470px]:text-[12px] max-[470px]:">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
           repudiandae excepturi nobis neque vel. Sequi excepturi sunt, ex
           blanditiis ut eum delectus quidem neque veritatis corporis corrupti
@@ -42,11 +52,10 @@ const Hero = () => {
         </div>
       </div>
 
-
       {/* Social Media */}
-      <div className="absolute z-10">
-        <div className="justify-end h-[596px] flex flex-col max-w-fit z-10">
-          <div className="flex justify-start items-end gap-8 py-1 h-[56px] bg-white pr-8 ">
+      <div className=" z-10">
+        <div className="mt-8 flex flex-col max-w-fit z-10">
+          <div className="flex justify-start items-end gap-8 py-1 h-[56px] bg-white pr-8">
             {socialMedia.map((icon) => (
               <a
                 className="relative flex justify-center items-center w-14 h-14 bg-white rounded border-solid border-2 border-black hover:bg-black cursor-pointer transition-all duration-300 ease-in-out "
@@ -63,20 +72,6 @@ const Hero = () => {
             ))}
           </div>
         </div>
-      </div>
-
-      {/* Right side image */}
-      <div className="left-1/2 h-[561px] w-[42.3%] bg-gray-200 absolute z-0">
-        <img
-          src="/mnt/data/image.png"
-          alt="Foto Gwejh"
-          className="h-auto max-w-xs"
-        />
-      </div>
-
-      {/* Divider */}
-      <div className="mt-[345px] z-0">
-        <div className="w-full bg-black h-0.5 z-0"></div>
       </div>
     </section>
   );
