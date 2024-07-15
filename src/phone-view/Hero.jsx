@@ -72,7 +72,7 @@ const Hero = () => {
       {/* Social Media */}
       <div className=" z-10">
         <div className="mt-8 flex flex-col max-w-fit z-10">
-          <div className="flex justify-start items-end gap-8 py-1 h-[56px] bg-white pr-8">
+          <div className="flex justify-start items-end gap-8 py-1 h-[56px] bg-white pr-8 max-md:gap-4">
             {socialMedia.map((icon) => (
               <a
                 className="relative flex justify-center items-center w-14 h-14 bg-white rounded border-solid border-2 border-black hover:bg-black cursor-pointer transition-all duration-300 ease-in-out "
