@@ -91,7 +91,7 @@ export const mySkills = [
     alt: "tailwind logo",
     href: "https://tailwindcss.com/",
     src2: tailwindHover,
-    name: "Tailwind CSS",
+    name: "Tailwind",
   },
   {
     src: figma,
