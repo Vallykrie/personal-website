@@ -12,10 +12,10 @@ const Nav = () => {
           </a>
         </div>
         <div className="justify-center space-x-8 sora-600 text-xl max-lg:hidden">
-          <a className="hover:text-gray-500" href="#about">About Me</a>
-          <a className="hover:text-gray-500" href="#skills">Skills</a>
-          <a className="hover:text-gray-500" href="#project">Projects</a>
-          <a className="hover:text-gray-500" href="#contact">Contact Me</a>
+          <a className="text-stroke-1 hover:text-transparent" href="#about">About Me</a>
+          <a className="text-stroke-1 hover:text-transparent" href="#skills" >Skills</a>
+          <a className="text-stroke-1 hover:text-transparent" href="#project">Projects</a>
+          <a className="text-stroke-1 hover:text-transparent" href="#contact">Contact Me</a>
         </div>
         <div className="justify-end max-lg:hidden">
           <a

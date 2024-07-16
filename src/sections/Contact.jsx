@@ -34,7 +34,7 @@ const Contact = () => {
           />
         </div>
         <div className="flex flex-row gap-8 justify-start items-center">
-          <a href="https://ngl.link/reinaiueo_" className="w-full h-14 px-5 py-4 rounded bg-black justify-center items-center flex text-white text-xl sora-600 hover:bg-white hover:text-black hover:border-solid hover:border-2  transition-opacity duration-300 ease-in-out hover:border-black hover:cursor-pointer">
+          <a href="https://ngl.link/reinaiueo_" className="w-full h-14 px-5 py-4 rounded bg-black justify-center items-center flex text-white text-xl sora-600 hover:bg-white hover:text-black hover:border-solid hover:border-2  transition-all duration-300 ease-in-out hover:border-black hover:cursor-pointer">
             Get in Touch
           </a>
 
