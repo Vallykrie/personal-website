@@ -23,11 +23,11 @@ const Skills = () => {
               href={icon.href}
             >
               <div className="flex justify-center items-center w-48 h-48 absolute transition-opacity duration-300 ease-in-out opacity-100 hover:opacity-0 flex-col gap-8">
-                <img src={icon.src} alt={icon.alt} width={45} height={45} />
+                <img src={icon.src} alt={icon.alt} height={56} />
                 <div className="sora-700 text-xl">{icon.name}</div>
               </div>
               <div className="flex justify-center items-center w-48 h-48 absolute transition-opacity duration-300 ease-in-out opacity-0 hover:opacity-100 flex-col gap-8">
-                <img src={icon.src2} alt={icon.alt} width={45} height={45} />
+                <img src={icon.src2} alt={icon.alt} height={56} />
                 <div className="sora-700 text-xl text-white">{icon.name}</div>
               </div>
             </a>

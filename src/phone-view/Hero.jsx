@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
 
       {/* Hero content */}
-      <div className="flex-col flex w-fit z-10 mt-12 text-4xl max-[470px]:text-3xl max-md:text-[36px] max-[400px]:text-2xl">
+      <div className="flex-col flex w-fit z-10 mt-12 text-4xl max-[470px]:text-3xl max-md:text-[36px] max-[400px]:text-[26px]">
         <div className="inline-flex gap-4">
           <div className="sora-400">Hello I am</div>
           <div className="sora-800">Nathan.</div>

@@ -4,6 +4,22 @@ import discordIcon from "../assets/discord.svg";
 import discordHover from "../assets/discordWhite.svg";
 import githubIcon from "../assets/github.svg";
 import githubHover from "../assets/githubWhite.svg";
+import java from "../assets/java.svg";
+import python from "../assets/python.svg";
+import javascript from "../assets/javascript.svg";
+import html from "../assets/html.svg";
+import css from "../assets/css.svg";
+import react from "../assets/react.svg";
+import tailwind from "../assets/tailwind.svg";
+import figma from "../assets/figma.svg";
+import javaHover from "../assets/javaWhite.svg";
+import pythonHover from "../assets/pythonWhite.svg";
+import javascriptHover from "../assets/javascriptWhite.svg";
+import htmlHover from "../assets/htmlWhite.svg";
+import cssHover from "../assets/cssWhite.svg";
+import reactHover from "../assets/reactWhite.svg";
+import tailwindHover from "../assets/tailwindWhite.svg";
+import figmaHover from "../assets/figmaWhite.svg";
 
 export const socialMedia = [
   {
@@ -28,91 +44,85 @@ export const socialMedia = [
 
 export const mySkills = [
   {
-    src: instagramIcon,
-    alt: "instagram logo",
-    href: "https://www.instagram.com/thanathanan_/",
-    src2: instagramHover,
-    name: "Instagram",
+    src: java,
+    alt: "java logo",
+    href: "https://www.java.com/",
+    src2: javaHover,
+    name: "Java",
   },
   {
-    src: discordIcon,
-    alt: "discord logo",
-    href: "https://discord.com/users/nathprabh",
-    src2: discordHover,
-    name: "Discord",
+    src: python,
+    alt: "python logo",
+    href: "https://www.python.org/",
+    src2: pythonHover,
+    name: "Python",
   },
   {
-    src: githubIcon,
-    alt: "github logo",
-    href: "https://github.com/Vallykrie",
-    src2: githubHover,
-    name: "Github",
+    src: javascript,
+    alt: "javascript logo",
+    href: "https://www.javascript.com/",
+    src2: javascriptHover,
+    name: "JavaScript",
+  },
+
+  {
+    src: html,
+    alt: "html logo",
+    href: "https://www.w3schools.com/html/",
+    src2: htmlHover,
+    name: "HTML",
   },
   {
-    src: instagramIcon,
-    alt: "instagram logo",
-    href: "https://www.instagram.com/thanathanan_/",
-    src2: instagramHover,
-    name: "Instagram",
+    src: css,
+    alt: "css logo",
+    href: "https://www.w3schools.com/css/",
+    src2: cssHover,
+    name: "CSS",
   },
   {
-    src: discordIcon,
-    alt: "discord logo",
-    href: "https://discord.com/users/nathprabh",
-    src2: discordHover,
-    name: "Discord",
+    src: react,
+    alt: "react logo",
+    href: "https://reactjs.org/",
+    src2: reactHover,
+    name: "React",
   },
   {
-    src: githubIcon,
-    alt: "github logo",
-    href: "https://github.com/Vallykrie",
-    src2: githubHover,
-    name: "Github",
+    src: tailwind,
+    alt: "tailwind logo",
+    href: "https://tailwindcss.com/",
+    src2: tailwindHover,
+    name: "Tailwind CSS",
   },
   {
-    src: instagramIcon,
-    alt: "instagram logo",
-    href: "https://www.instagram.com/thanathanan_/",
-    src2: instagramHover,
-    name: "Instagram",
-  },
-  {
-    src: discordIcon,
-    alt: "discord logo",
-    href: "https://discord.com/users/nathprabh",
-    src2: discordHover,
-    name: "Discord",
-  },
-  {
-    src: githubIcon,
-    alt: "github logo",
-    href: "https://github.com/Vallykrie",
-    src2: githubHover,
-    name: "Github",
+    src: figma,
+    alt: "figma logo",
+    href: "https://www.figma.com/",
+    src2: figmaHover,
+    name: "Figma",
   },
 ];
 
 export const experienceLists = [
   {
-    logo: instagramHover,
-    alt: "instagram logo",
-    role: "Software Engineer",
+    logo: "https://via.placeholder.com/150",
+    alt: "logo",
+    role: "Lorem Ipsum",
     date: "Nov 2021 - Present",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
-    logo: discordHover,
-    alt: "discord logo",
-    role: "Software Engineer",
+    logo: "https://via.placeholder.com/150",
+    alt: "logo",
+    role: "Lorem Ipsum",
     date: "Oct 2021 - Nov 2021",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   },
   {
-    logo: githubHover,
-    alt: "github logo",
-    role: "Software Engineer",
+    logo: "https://via.placeholder.com/150",
+    alt: "logo",
+    role: "Lorem Ipsum",
     date: "malaaaaassss",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
