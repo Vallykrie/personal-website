@@ -70,7 +70,7 @@ const Contact = () => {
         <div className="flex flex-col gap-5">
           {/* title */}
           <div className="flex flex-col gap-3 text-4xl sora-800  max-md:text-[40px] max-sm:text-3xl max-md:gap-0">
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-row gap-4 max-[350px]:gap-2 max-[350px]:text-2xl">
               <div className="">Lets</div>
               <div>
                 <div
@@ -87,7 +87,7 @@ const Contact = () => {
               </div>
               <div className="">for</div>
             </div>
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-row gap-4 max-[350px]:gap-2 max-[350px]:text-2xl">
               <div className="">Something</div>
               <div className="">special</div>
             </div>
