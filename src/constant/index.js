@@ -20,6 +20,8 @@ import cssHover from "../assets/cssWhite.svg";
 import reactHover from "../assets/reactWhite.svg";
 import tailwindHover from "../assets/tailwindWhite.svg";
 import figmaHover from "../assets/figmaWhite.svg";
+import framermotion from "../assets/framermotion.svg";
+import framermotionHover from "../assets/framermotionWhite.svg";
 
 export const navLinks = [
   {
@@ -119,6 +121,13 @@ export const mySkills = [
     src2: figmaHover,
     name: "Figma",
   },
+  {
+    src: framermotion,
+    alt: "framermotion logo",
+    href: "https://www.framer.com/motion/",
+    src2: framermotionHover,
+    name: "Framer Motion",
+  }
 ];
 
 export const experienceLists = [
