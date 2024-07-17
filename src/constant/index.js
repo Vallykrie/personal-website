@@ -21,6 +21,25 @@ import reactHover from "../assets/reactWhite.svg";
 import tailwindHover from "../assets/tailwindWhite.svg";
 import figmaHover from "../assets/figmaWhite.svg";
 
+export const navLinks = [
+  {
+    title: "About Me",
+    href: "#about",
+  },
+  {
+    title: "Skills",
+    href: "#skills",
+  },
+  {
+    title: "Projects",
+    href: "#project",
+  },
+  {
+    title: "Contact Me",
+    href: "#contact",
+  },
+];
+
 export const socialMedia = [
   {
     src: instagramIcon,
