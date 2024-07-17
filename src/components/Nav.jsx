@@ -44,7 +44,7 @@ const Nav = () => {
           </a>
         </div>
         <div ref={ref} className="justify-end hidden max-lg:block">
-          <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
+          <Hamburger toggled={isOpen} size={25} toggle={setOpen} />
           <AnimatePresence>
             {isOpen && (
               <motion.div
