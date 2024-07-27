@@ -22,6 +22,8 @@ import tailwindHover from "../assets/tailwindWhite.svg";
 import figmaHover from "../assets/figmaWhite.svg";
 import framermotion from "../assets/framermotion.svg";
 import framermotionHover from "../assets/framermotionWhite.svg";
+import sampahBijak from "../assets/SampahBijak.png"
+import intuitiva from "../assets/Intuitiva.png"
 
 export const navLinks = [
   {
@@ -159,35 +161,17 @@ export const experienceLists = [
 
 export const projectLists = [
   {
-    img: "https://via.placeholder.com/150",
+    img: sampahBijak,
     alt: "project 1",
     no: "01",
-    title: "Project 1",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu hendrerit purus. Nullam eget risus quam. Nam diam metus, volutpat non eros vel, consectetur mattis velit. Aenean dui ex, vulputate at convallis eget, lacinia vitae erat. Curabitur faucibus massa arcu, nec faucibus lacus placerat in. Phasellus blandit dolor sit amet turpis molestie, non cursus sem aliquam. Quisque porttitor nibh diam. Pellentesque tempor mattis leo eu eleifend. Phasellus in ornare arcu, quis consequat diam. Aenean consequat gravida diam, id ultrices massa euismod quis. Praesent ac elit finibus, rutrum lectus a, vulputate urna.This is a description of project 1",
-    href: "https://www.google.com",
-    img2: "https://via.placeholder.com/150",
+    title: "SampahBijak",
+    description:"SampahBijak is a mobile application designed for the general public to encourage waste sorting by offering a convenient platform to schedule waste pickups with local scavengers and earn points for sorted waste. Developed for Hackfest GDSC, the app features user registration for additional benefits and leverages Figma for its intuitive design. By combining ease of use with a rewarding system, SampahBijak aims to promote sustainable waste management and foster environmental responsibility in the community.", 
+    href: "https://www.figma.com/design/3of2dEKpAZSf63MZXE76xf/Sampah-Bijak?node-id=35-3199&t=EvJeUyEp4cnKidnZ-1",
+    img2: intuitiva,
     alt2: "project 2",
     no2: "02",
-    title2: "Project 2",
-    description2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu hendrerit purus. Nullam eget risus quam. Nam diam metus, volutpat non eros vel, consectetur mattis velit. Aenean dui ex, vulputate at convallis eget, lacinia vitae erat. Curabitur faucibus massa arcu, nec faucibus lacus placerat in. Phasellus blandit dolor sit amet turpis molestie, non cursus sem aliquam. Quisque porttitor nibh diam. Pellentesque tempor mattis leo eu eleifend. Phasellus in ornare arcu, quis consequat diam. Aenean consequat gravida diam, id ultrices massa euismod quis. Praesent ac elit finibus, rutrum lectus a, vulputate urna.This is a description of project 2",
-    href2: "https://www.google.com",
-  },
-  {
-    img: "https://via.placeholder.com/150",
-    alt: "project 3",
-    no: "03",
-    title: "Project 3",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu hendrerit purus. Nullam eget risus quam. Nam diam metus, volutpat non eros vel, consectetur mattis velit. Aenean dui ex, vulputate at convallis eget, lacinia vitae erat. Curabitur faucibus massa arcu, nec faucibus lacus placerat in. Phasellus blandit dolor sit amet turpis molestie, non cursus sem aliquam. Quisque porttitor nibh diam. Pellentesque tempor mattis leo eu eleifend. Phasellus in ornare arcu, quis consequat diam. Aenean consequat gravida diam, id ultrices massa euismod quis. Praesent ac elit finibus, rutrum lectus a, vulputate urna.This is a description of project 1",
-    href: "https://www.google.com",
-    img2: "https://via.placeholder.com/150",
-    alt2: "project 4",
-    no2: "04",
-    title2: "Project 4",
-    description2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu hendrerit purus. Nullam eget risus quam. Nam diam metus, volutpat non eros vel, consectetur mattis velit. Aenean dui ex, vulputate at convallis eget, lacinia vitae erat. Curabitur faucibus massa arcu, nec faucibus lacus placerat in. Phasellus blandit dolor sit amet turpis molestie, non cursus sem aliquam. Quisque porttitor nibh diam. Pellentesque tempor mattis leo eu eleifend. Phasellus in ornare arcu, quis consequat diam. Aenean consequat gravida diam, id ultrices massa euismod quis. Praesent ac elit finibus, rutrum lectus a, vulputate urna.This is a description of project 2",
-    href2: "https://www.google.com",
+    title2: "Intuitiva",
+    description2: "nanti gwejh jelasin... masih mikirin kata kata mas bro",
+    href2: "https://www.figma.com/design/WAbAH2QRz0WqIsie2v4mOu/INTUITIVA?node-id=154-199&t=3YSsfTmlunYtdz6L-1",
   },
 ];

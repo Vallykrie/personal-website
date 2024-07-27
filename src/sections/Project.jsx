@@ -13,15 +13,15 @@ const Project = () => {
       <div className="w-full flex flex-col">
         {projectLists.map((icon) => (
           <div key={icon.no}>
-            <div className="py-5 gap-10 w-full h-[516px] flex flex-row">
-              <div className="h-[476px] w-1/2">
+            <div className="py-5 gap-10 w-full h-auto grid grid-cols-2">
+              <div className="justify-start flex items-center">
                 <img
                   src={icon.img}
                   alt={icon.alt}
-                  className="h-[476px] w-[398px] flex items-center rounded-2xl"
+                  className="h-[512px] rounded-2xl"
                 />
               </div>
-              <div className="gap-7 justify-center flex flex-col h-auto w-1/2">
+              <div className="gap-7 justify-center flex flex-col h-auto">
                 <div className="text-white text-4xl sora-800">{icon.no}</div>
                 <div
                   className="text-white sora-700"
@@ -37,8 +37,8 @@ const Project = () => {
                 </a>
               </div>
             </div>
-            <div className="py-5 gap-10 w-full h-[516px] flex flex-row">
-              <div className="gap-7 justify-center flex flex-col h-auto w-1/2">
+            <div className="py-5 gap-10 w-full h-auto grid grid-cols-2">
+              <div className="gap-7 justify-center flex flex-col h-auto">
                 <div className="text-white text-4xl sora-800">{icon.no2}</div>
                 <div
                   className="text-white sora-700"
@@ -53,11 +53,11 @@ const Project = () => {
                   <img src={readMore} alt="Read More" className="h-5 w-5" />
                 </a>
               </div>
-              <div className="h-[476px] w-1/2 flex justify-end">
+              <div className="justify-end flex items-center h-full">
                 <img
                   src={icon.img2}
                   alt={icon.alt2}
-                  className="h-[476px] w-[398px] flex items-center rounded-2xl"
+                  className="h-[512px] rounded-2xl"
                 />
               </div>
             </div>
