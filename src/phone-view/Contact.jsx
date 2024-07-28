@@ -96,10 +96,7 @@ const Contact = () => {
           {/* description */}
           <div className="sora-200">
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
-              dolor officia eveniet aliquid, eius laudantium laboriosam tenetur
-              eos exercitationem ad, nam nemo tempore ratione id eaque, debitis
-              commodi ipsum impedit!
+            Ini belum nyambung ke backend sih... jadi kalo mau kirim anonymous message, bisa langsung klik get in touch wkwkwk :D
             </p>
           </div>
         </div>
