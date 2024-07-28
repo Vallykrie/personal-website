@@ -1,11 +1,12 @@
 import { socialMedia } from "../constant";
+import fotoGwejh from "../assets/Hero.png";
 
 const Hero = () => {
   return (
     // Hero section
     <section className="px-8 w-auto h-auto flex flex-col">
       {/* Hero content */}
-      <div className="flex-col flex w-fit z-10">
+      <div className="flex-col flex w-fit z-10 mt-12 ml-[10%] max-wide:ml-0">
         <div className="inline-flex gap-4" style={{ fontSize: "3rem" }}>
           <div className="sora-400">Hello I am</div>
           <div className="sora-800">Nathan.</div>
@@ -31,21 +32,17 @@ const Hero = () => {
           <div className="sora-400">Informatics Engineering</div>
         </div>
         <div className="mt-[250px] sora-200 text-base absolute max-w-lg">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-          repudiandae excepturi nobis neque vel. Sequi excepturi sunt, ex
-          blanditiis ut eum delectus quidem neque veritatis corporis corrupti
-          natus, labore magnam. Eius maxime aliquam tenetur iusto quas,
-          laudantium dicta distinctio temporibus, totam fugit harum magnam
-          reiciendis velit quaerat aliquid illo recusandae eveniet numquam
-          voluptas corrupti perspiciatis exercitationem rem? Reiciendis, a
-          delectus?
+        Hello! My name is Pande Kadek Nathan Prabhaswara Sudiara Putra, but
+            you can call me Nathan. I&apos;m 19 years old and currently studying
+            Informatics Engineering at Brawijaya University. I&apos;m passionate about technology and always eager to learn more
+            about the latest advancements.
         </div>
       </div>
 
 
       {/* Social Media */}
-      <div className="absolute z-10">
-        <div className="justify-end h-[596px] flex flex-col max-w-fit z-10">
+      <div className="absolute z-10 ml-[10%] max-wide:ml-0">
+        <div className="justify-end h-[593px] flex flex-col max-w-fit z-10">
           <div className="flex justify-start items-end gap-8 py-1 h-[56px] bg-white pr-8 ">
             {socialMedia.map((icon) => (
               <a
@@ -66,17 +63,17 @@ const Hero = () => {
       </div>
 
       {/* Right side image */}
-      <div className="left-1/2 h-[561px] w-[42.3%] bg-gray-200 absolute z-0">
+      <div className="max-xl:left-[30%] left-[40%] h-[561px]  absolute z-0 ">
         <img
-          src="/mnt/data/image.png"
+          src={fotoGwejh}
           alt="Foto Gwejh"
-          className="h-auto max-w-xs"
+          className="h-[561px]"
         />
       </div>
 
       {/* Divider */}
-      <div className="mt-[345px] z-0">
-        <div className="w-full bg-black h-0.5 z-0"></div>
+      <div className="mt-[294px] z-0 flex justify-end mr-[10%] max-wide:mr-0">
+        <div className="w-[80%] bg-black h-1 z-0"></div>
       </div>
     </section>
   );

@@ -1,21 +1,22 @@
 import { socialMedia } from "../constant";
+import fotoGwejh from "../assets/HeroKotax.png";
 
 const Hero = () => {
   return (
     // Hero section
-    <section className="w-auto h-auto grid grid-flow-row grid-rows-1 justify-center">
+    <section className="max-w-screen-md h-auto grid grid-flow-row">
 
-      {/* Right side image */}
-      <div className=" h-[332px] bg-gray-200 z-0">
+      {/* Photo */}
+      <div className="z-0 flex justify-center">
         <img
-          src="/mnt/data/image.png"
+          src={fotoGwejh}
           alt="Foto Gwejh"
-          className="h-auto max-w-xs"
+          className="max-[500px]:w-full w-1/2"
         />
       </div>
 
       {/* Hero content */}
-      <div className="flex-col flex w-fit z-10 mt-12 text-4xl max-[470px]:text-3xl max-md:text-[36px] max-[400px]:text-[26px]">
+      <div className="flex-col flex z-10 mt-12 text-4xl max-[470px]:text-3xl max-md:text-[36px] max-[400px]:text-[26px]">
         <div className="inline-flex gap-4">
           <div className="sora-400">Hello I am</div>
           <div className="sora-800">Nathan.</div>
@@ -57,15 +58,16 @@ const Hero = () => {
         <div className="inline-flex gap-4">
           <div className="sora-400">Informatics Engineering</div>
         </div>
-        <div className="sora-200 text-base max-w-lg mt-8 max-[470px]:text-[12px] max-[470px]:">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-          repudiandae excepturi nobis neque vel. Sequi excepturi sunt, ex
-          blanditiis ut eum delectus quidem neque veritatis corporis corrupti
-          natus, labore magnam. Eius maxime aliquam tenetur iusto quas,
-          laudantium dicta distinctio temporibus, totam fugit harum magnam
-          reiciendis velit quaerat aliquid illo recusandae eveniet numquam
-          voluptas corrupti perspiciatis exercitationem rem? Reiciendis, a
-          delectus?
+        <div className="sora-200 text-base mt-8 max-[470px]:text-[12px] max-[470px]:">
+        Hello! My name is Pande Kadek Nathan Prabhaswara Sudiara Putra, but
+            you can call me Nathan. I&apos;m 19 years old and currently studying
+            Informatics Engineering at Brawijaya University. I&apos;m passionate about technology and always eager to learn more
+            about the latest advancements, especially in AI. Being a fast
+            learner, I thrive on picking up new skills and tackling new
+            challenges. I&apos;m particularly
+            drawn to graphic design and website/app design. I frequently use
+            Figma for my design projects and have recently started learning
+            frontend development with React.js, Tailwind, and Framer Motion.
         </div>
       </div>
 

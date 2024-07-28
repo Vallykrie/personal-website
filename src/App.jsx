@@ -46,7 +46,7 @@ const App = () => (
     {/* <div className="hidden max-lg:block h-screen w-screen sora-800 text-4xl"> */}
       {/* <h1 className="flex h-screen w-screen justify-center items-center p-10">Mohon buka dengan laptop ya ges aokwokwok</h1> */}
       <Nav></Nav>
-      <section className="px-4 py-10">
+      <section className="px-4 py-10 flex justify-center">
         <Hero2 />
       </section>
       <section id="skills" className="px-4 py-10">
