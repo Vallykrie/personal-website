@@ -49,7 +49,7 @@ const Project = () => {
                 <div className="text-white text-base sora-200">
                   {icon.description2}
                 </div>
-                <a href={icon.href}>
+                <a href={icon.href2}>
                   <img src={readMore} alt="Read More" className="h-5 w-5" />
                 </a>
               </div>

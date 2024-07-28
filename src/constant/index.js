@@ -172,6 +172,6 @@ export const projectLists = [
     no2: "02",
     title2: "Intuitiva",
     description2: "nanti gwejh jelasin... masih mikirin kata kata mas bro",
-    href2: "https://www.figma.com/design/WAbAH2QRz0WqIsie2v4mOu/INTUITIVA?node-id=154-199&t=3YSsfTmlunYtdz6L-1",
+    href2: "https://www.figma.com/design/WAbAH2QRz0WqIsie2v4mOu/INTUITIVA?node-id=154-199&t=alCQLWpVjOV5oPkm-1",
   },
 ];

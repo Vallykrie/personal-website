@@ -1,12 +1,14 @@
+import fotoGwejh from "../assets/About.png";
+
 const About = () => {
   return (
     <section className="px-8 flex flex-row justify-between w-auto h-auto pt-20">
       {/* Photo */}
-      <div className="h-[572px] w-[525px] flex justify-center border-solid border-4 rounded-xl border-black ">
+      <div className="flex justify-center items-center">
         <img
-          src="/mnt/data/image.png"
+          src={fotoGwejh}
           alt="Foto Gwejh"
-          className="h-auto max-w-xs"
+          className="h-[572px]"
         />
       </div>
       <div className="h-auto w-1/2 flex justify-center flex-col ">

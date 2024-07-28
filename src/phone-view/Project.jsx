@@ -37,7 +37,7 @@ const Project = () => {
                 <div className="text-white text-xs sora-200">
                   {icon.description2}
                 </div>
-                <a href={icon.href}>
+                <a href={icon.href2}>
                   <img src={readMore} alt="Read More" className="h-5 w-5" />
                 </a>
               </div>
@@ -71,7 +71,7 @@ const Project = () => {
             <div className="sora-200 text-white text-base max-[400px]:text-[12px]">
               {icon.description}
             </div>
-            <img src={readMore} alt="Read More" className="h-5 w-5" />
+            <img src={readMore} alt="Read More" className="h-5 w-5" href={icon.href2}/>
 
             {/* photo */}
             <div className="flex justify-center items-center">
@@ -88,7 +88,7 @@ const Project = () => {
             <div className="sora-200 text-white text-base max-[400px]:text-[12px]">
               {icon.description2}
             </div>
-            <img src={readMore} alt="Read More" className="h-5 w-5" />
+            <img src={readMore} alt="Read More" className="h-5 w-5" href={icon.href2}/>
           </div>
         ))}
       </div>
