@@ -15,6 +15,7 @@ import Project2 from "./phone-view/Project";
 import Contact2 from "./phone-view/Contact";
 import Footer2 from "./phone-view/Footer";
 
+import TawkToChat from "./components/liveChat";
 
 const App = () => (
   <main id="home" className="w-full">
@@ -38,12 +39,13 @@ const App = () => (
       <section id="contact" className="px-20 py-16">
         <Contact />
       </section>
+      <TawkToChat />
       <section className="px-20 py-6 bg-black">
         <Footer />
       </section>
     </div>
     <div className="hidden max-lg:block">
-    {/* <div className="hidden max-lg:block h-screen w-screen sora-800 text-4xl"> */}
+      {/* <div className="hidden max-lg:block h-screen w-screen sora-800 text-4xl"> */}
       {/* <h1 className="flex h-screen w-screen justify-center items-center p-10">Mohon buka dengan laptop ya ges aokwokwok</h1> */}
       <Nav></Nav>
       <section className="px-4 py-10 flex justify-center">
@@ -64,6 +66,7 @@ const App = () => (
       <section id="contact" className="px-4 py-10">
         <Contact2 />
       </section>
+      <TawkToChat />
       <section className="px-4 py-6 bg-black">
         <Footer2 />
       </section>
